@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20em;
+  letter-spacing: 0.02em;
+  margin: 0;
+  line-height: 0.9em;
+  font-weight: bold;
+}
+
+.estimate {
+  color: #fff;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+}
+
+.howth, .bray {
+  color: #d2d469;
+}
+
+.malahide, .greystones {
+  color: #4c6a44;
+}
+
+.red {
+  color: #d00f0f;
+}
+
+.green {
+  color: #2d8d13;
+}
+
+.blue {
+  color: #3e60f5;
+}
+
+.white {
+  color: #fff;
+}
+
+#lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#disconnected{
+  display: none;
+  justify-content: center;
+  height: 100%;
+}
+
+#disconnected img {
+  width: 50%;
+}
+
+#no-trains {
+  display: none;
+  color: white;
+  text-align: center;
+}
